@@ -1,7 +1,7 @@
 <template>
   <nav class="navigation" role="navigation" aria-label="Main Navigation">
     <a to="/" class="navigation__logo">
-      <img src="../assets/img/logo.png" width="640" height="148" />
+      <img src="./img/logo.png" width="640" height="148" />
     </a>
 
     <a
