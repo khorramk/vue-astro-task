@@ -1,3 +1,4 @@
+
 <template>
   <section id="features" class="features-section">
     <div class="section-content">
@@ -16,9 +17,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id
             elit nec arcu cursus aliquam.
           </p>
-          <app-link-button :bordered="true" page="/learn-more">
-          Learn more
-        </app-link-button>
+          <div class=" link-tag">
+            <a href="learn-more">learn more</a>
+        </div>
         </div>
 
         <div class="feature">
@@ -27,9 +28,9 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <app-link-button :bordered="true" page="/learn-more">
-          Learn more
-        </app-link-button>
+          <div class=" link-tag">
+            <a href="learn-more">learn more</a>
+        </div>
         </div>
 
         <div class="feature">
@@ -38,9 +39,9 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <app-link-button :bordered="true" page="/learn-more">
-          Learn more
-        </app-link-button>
+          <div class=" link-tag">
+            <a href="learn-more">learn more</a>
+        </div>
         </div>
         <div class="feature">
           <h3>Feature 4</h3>
@@ -48,16 +49,17 @@
             Curabitur suscipit orci vel turpis fermentum, ut fermentum quam
             cursus. Duis et mauris vitae velit venenatis accumsan vel nec dui.
           </p>
-          <app-link-button :bordered="true" page="/learn-more">
-          Learn more
-        </app-link-button>
+          <div class=" link-tag">
+            <a href="learn-more">learn more</a>
+        </div>
         </div>
       </div>
       <div class="link-container">
-        <app-link-button :bordered="true" page="/learn-more">
-          Learn more
-        </app-link-button>
+        <div class=" link-tag">
+          <a href="learn-more">learn more</a>
+      </div>
       </div>
     </div>
   </section>
 </template>
+

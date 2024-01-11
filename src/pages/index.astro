@@ -6,11 +6,13 @@ import AppCta from '../components/AppCta.vue';
 import AppLearnMoreCtaSection from '../components/AppLearnMoreCtaSection.vue';
 import AppPersonTypeSelection from '../components/AppPersonTypeSelection.vue';
 import AppFeatureSection from '../components/AppFeatureSection.vue';
+
 ---
 
 <Layout title='welcome to vue test'>
 	<AppCta client:visible></AppCta>
 	<AppLearnMoreCtaSection client:visible></AppLearnMoreCtaSection>
 	<AppPersonTypeSelection client:visible></AppPersonTypeSelection>
-	<AppFeatureSection client:visible></AppFeatureSection>
+	<AppFeatureSection client:visible>
+	</AppFeatureSection>
 </Layout>

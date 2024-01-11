@@ -28,6 +28,16 @@
     left: 1rem;
     top: 1rem;
     bottom: 0;
+
+    img {
+      max-width: 130px;
+      width: 100%;
+      height: auto;
+
+      @media screen and (min-width: 1200px) {
+        max-width: 240px;
+      }
+    }
   }
 
   .navigation__list:target {
