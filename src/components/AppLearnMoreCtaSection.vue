@@ -15,10 +15,10 @@
           facere labore totam distinctio. Ex!
         </p>
 
-        <app-link-button page="learn-more">
-          Learn more about us
-        </app-link-button>
+        <div class=" link-tag no-border">
+          <a href="learn-more">learn more</a>
       </div>
+        </div>
     </div>
   </section>
 </template>

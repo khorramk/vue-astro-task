@@ -25,9 +25,9 @@
         deleniti.
       </p>
 
-      <app-link-button page="/learn-more" :bordered="false">
-        Learn more
-      </app-link-button>
+      <div class=" link-tag no-border">
+          <a href="learn-more">learn more</a>
+      </div>
       
     </div>
   </header>
