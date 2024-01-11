@@ -8,6 +8,7 @@
           width="600"
           height="1000"
           role="img"
+          loading="eager"
           srcset="
             /img/ctaMobilePlacheolder.svg  600w,
             /img/ctaPlaceholder.svg       1200w

@@ -2,7 +2,7 @@
   <section class="cta-section">
     <div class="cta-content">
       <div class="cta-image">
-        <img src="/img/ctaLearnMore.svg"/>
+        <img src="/img/ctaLearnMore.svg" width="1400" height="600" loading="lazy"/>
       </div>
       <div class="cta-text">
         <h2>
